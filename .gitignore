@@ -1,0 +1,31 @@
+# Raw Datasets
+data/
+*.csv.gz
+*.tar.gz
+hasil_ekg.zip
+
+# Checkpoints (Exclude 45 intermediate training runs, keep production model in hasil_ekg/model_deploy/)
+hasil_ekg/checkpoints/
+
+# Word Reports and Local Drafts
+*.docx
+
+# Python and Environment Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE and System Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
