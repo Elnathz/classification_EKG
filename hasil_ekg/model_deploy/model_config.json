@@ -1,0 +1,101 @@
+{
+  "nama_model": "Hibrida 1D-CNN dan BiLSTM untuk klasifikasi denyut aritmia",
+  "versi": "1.0.0",
+  "sumber_run": {
+    "skenario": "imb1",
+    "model": "hybrid",
+    "seed": 45
+  },
+  "masukan": {
+    "nama": "ekg_beat",
+    "bentuk": [
+      "batch",
+      187,
+      1
+    ],
+    "tipe": "float32",
+    "frekuensi_sampling_hz": 125,
+    "normalisasi": "none",
+    "syarat": "denyut tersegmentasi 187 sampel, berpusat pada puncak R, bukan rekaman mentah"
+  },
+  "keluaran": {
+    "nama": "logits",
+    "bentuk": [
+      "batch",
+      5
+    ],
+    "aktivasi": "softmax dihitung di luar model",
+    "kelas": [
+      {
+        "indeks": 0,
+        "kode": "N",
+        "nama": "Normal"
+      },
+      {
+        "indeks": 1,
+        "kode": "S",
+        "nama": "Supraventrikular"
+      },
+      {
+        "indeks": 2,
+        "kode": "V",
+        "nama": "Ventrikel"
+      },
+      {
+        "indeks": 3,
+        "kode": "F",
+        "nama": "Fusi"
+      },
+      {
+        "indeks": 4,
+        "kode": "Q",
+        "nama": "Unknown"
+      }
+    ]
+  },
+  "arsitektur": {
+    "blok_cnn": [
+      [
+        1,
+        64,
+        5
+      ],
+      [
+        64,
+        128,
+        5
+      ],
+      [
+        128,
+        256,
+        3
+      ]
+    ],
+    "bilstm_lapisan": 2,
+    "bilstm_unit_per_arah": 64,
+    "head": [
+      128,
+      5
+    ],
+    "parameter": 422277
+  },
+  "metrik_validasi_macro_f1": 0.9397928813469731,
+  "metrik_uji": {
+    "akurasi": 0.9868901881966015,
+    "macro_f1": 0.9241380199844482,
+    "weighted_f1": 0.9866406826824436
+  },
+  "pemilihan_model": "macro-F1 validasi tertinggi di antara seluruh run hibrida, tanpa melihat test set",
+  "onnx": {
+    "opset": 17,
+    "berkas": "model.onnx",
+    "selisih_maks_pytorch_vs_onnx": 1.1444091796875e-05
+  },
+  "lingkungan": {
+    "python": "3.10.22",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.2.6",
+    "scikit_learn": "1.7.2"
+  },
+  "dibuat": "2026-10-26T00:04:21"
+}
