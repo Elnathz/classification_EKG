@@ -1,0 +1,46 @@
+﻿Skenario;Model;Kelas;Jumlah_uji;Presisi_persen;Recall_persen;F1_persen;Spesifisitas_persen
+Tanpa penanganan;1D-CNN saja;N (Normal);18118;98,59 ± 0,08;99,63 ± 0,08;99,11 ± 0,04;93,18 ± 0,38
+Tanpa penanganan;1D-CNN saja;S (Supraventrikular);556;90,45 ± 1,62;65,11 ± 1,74;75,69 ± 1,00;99,82 ± 0,04
+Tanpa penanganan;1D-CNN saja;V (Ventrikel);1448;96,88 ± 0,77;95,76 ± 0,53;96,31 ± 0,19;99,78 ± 0,06
+Tanpa penanganan;1D-CNN saja;F (Fusi);162;86,43 ± 1,58;77,41 ± 2,91;81,62 ± 1,10;99,91 ± 0,02
+Tanpa penanganan;1D-CNN saja;Q (Unknown);1608;99,25 ± 0,35;99,12 ± 0,14;99,18 ± 0,12;99,94 ± 0,03
+Tanpa penanganan;BiLSTM saja;N (Normal);18118;98,83 ± 0,13;99,53 ± 0,08;99,18 ± 0,05;94,33 ± 0,64
+Tanpa penanganan;BiLSTM saja;S (Supraventrikular);556;90,38 ± 3,00;76,69 ± 1,80;82,93 ± 1,04;99,78 ± 0,08
+Tanpa penanganan;BiLSTM saja;V (Ventrikel);1448;96,39 ± 0,16;95,14 ± 0,57;95,76 ± 0,22;99,75 ± 0,01
+Tanpa penanganan;BiLSTM saja;F (Fusi);162;85,23 ± 2,43;76,05 ± 2,91;80,35 ± 2,24;99,90 ± 0,02
+Tanpa penanganan;BiLSTM saja;Q (Unknown);1608;99,02 ± 0,26;98,43 ± 0,22;98,73 ± 0,22;99,92 ± 0,02
+Tanpa penanganan;Hibrida 1D-CNN dan BiLSTM;N (Normal);18118;99,08 ± 0,11;99,64 ± 0,07;99,36 ± 0,06;95,54 ± 0,54
+Tanpa penanganan;Hibrida 1D-CNN dan BiLSTM;S (Supraventrikular);556;91,27 ± 2,63;79,60 ± 2,72;84,99 ± 1,64;99,80 ± 0,07
+Tanpa penanganan;Hibrida 1D-CNN dan BiLSTM;V (Ventrikel);1448;96,97 ± 0,96;96,15 ± 0,19;96,55 ± 0,52;99,79 ± 0,07
+Tanpa penanganan;Hibrida 1D-CNN dan BiLSTM;F (Fusi);162;84,73 ± 2,35;79,26 ± 4,53;81,79 ± 1,62;99,89 ± 0,02
+Tanpa penanganan;Hibrida 1D-CNN dan BiLSTM;Q (Unknown);1608;99,64 ± 0,22;98,96 ± 0,30;99,29 ± 0,13;99,97 ± 0,02
+Pembobotan kelas;1D-CNN saja;N (Normal);18118;98,76 ± 0,37;93,24 ± 1,89;95,91 ± 0,85;94,37 ± 1,85
+Pembobotan kelas;1D-CNN saja;S (Supraventrikular);556;37,68 ± 8,65;73,60 ± 5,21;49,13 ± 5,80;96,60 ± 1,15
+Pembobotan kelas;1D-CNN saja;V (Ventrikel);1448;83,07 ± 10,40;92,85 ± 3,68;87,23 ± 5,10;98,52 ± 1,21
+Pembobotan kelas;1D-CNN saja;F (Fusi);162;37,31 ± 5,63;89,01 ± 2,94;52,37 ± 5,62;98,85 ± 0,29
+Pembobotan kelas;1D-CNN saja;Q (Unknown);1608;97,24 ± 0,83;97,41 ± 0,71;97,32 ± 0,20;99,78 ± 0,07
+Pembobotan kelas;BiLSTM saja;N (Normal);18118;99,23 ± 0,19;93,19 ± 1,98;96,11 ± 1,11;96,52 ± 0,82
+Pembobotan kelas;BiLSTM saja;S (Supraventrikular);556;40,63 ± 7,39;83,24 ± 2,86;54,30 ± 6,94;96,68 ± 1,07
+Pembobotan kelas;BiLSTM saja;V (Ventrikel);1448;85,38 ± 2,40;93,87 ± 1,36;89,42 ± 1,89;98,86 ± 0,20
+Pembobotan kelas;BiLSTM saja;F (Fusi);162;37,59 ± 11,95;88,27 ± 2,00;51,75 ± 12,25;98,72 ± 0,74
+Pembobotan kelas;BiLSTM saja;Q (Unknown);1608;93,39 ± 3,05;98,21 ± 0,47;95,72 ± 1,74;99,44 ± 0,28
+Pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;N (Normal);18118;99,42 ± 0,20;96,11 ± 1,04;97,73 ± 0,57;97,30 ± 0,92
+Pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;S (Supraventrikular);556;52,98 ± 8,84;85,76 ± 4,65;65,16 ± 7,41;97,92 ± 0,78
+Pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;V (Ventrikel);1448;92,26 ± 2,01;94,71 ± 1,01;93,46 ± 1,45;99,44 ± 0,16
+Pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;F (Fusi);162;47,82 ± 5,99;91,60 ± 1,67;62,69 ± 5,73;99,24 ± 0,20
+Pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;Q (Unknown);1608;96,41 ± 1,51;99,17 ± 0,32;97,76 ± 0,77;99,71 ± 0,13
+Oversampling dan pembobotan kelas;1D-CNN saja;N (Normal);18118;99,40 ± 0,21;96,20 ± 0,48;97,77 ± 0,35;97,21 ± 0,96
+Oversampling dan pembobotan kelas;1D-CNN saja;S (Supraventrikular);556;52,14 ± 1,98;84,28 ± 5,66;64,40 ± 2,92;97,99 ± 0,12
+Oversampling dan pembobotan kelas;1D-CNN saja;V (Ventrikel);1448;90,11 ± 5,40;96,55 ± 0,33;93,14 ± 2,92;99,23 ± 0,49
+Oversampling dan pembobotan kelas;1D-CNN saja;F (Fusi);162;54,64 ± 5,93;91,11 ± 4,13;68,06 ± 4,09;99,42 ± 0,16
+Oversampling dan pembobotan kelas;1D-CNN saja;Q (Unknown);1608;97,86 ± 0,47;99,14 ± 0,38;98,50 ± 0,38;99,83 ± 0,04
+Oversampling dan pembobotan kelas;BiLSTM saja;N (Normal);18118;99,14 ± 0,04;98,94 ± 0,08;99,04 ± 0,05;95,90 ± 0,18
+Oversampling dan pembobotan kelas;BiLSTM saja;S (Supraventrikular);556;80,48 ± 1,82;82,45 ± 0,84;81,44 ± 1,03;99,48 ± 0,06
+Oversampling dan pembobotan kelas;BiLSTM saja;V (Ventrikel);1448;95,05 ± 0,54;95,64 ± 0,38;95,34 ± 0,25;99,65 ± 0,04
+Oversampling dan pembobotan kelas;BiLSTM saja;F (Fusi);162;76,19 ± 3,30;83,70 ± 1,28;79,75 ± 2,17;99,80 ± 0,03
+Oversampling dan pembobotan kelas;BiLSTM saja;Q (Unknown);1608;98,71 ± 0,16;98,66 ± 0,21;98,68 ± 0,10;99,90 ± 0,01
+Oversampling dan pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;N (Normal);18118;99,46 ± 0,03;99,13 ± 0,21;99,29 ± 0,09;97,40 ± 0,17
+Oversampling dan pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;S (Supraventrikular);556;84,08 ± 3,17;86,91 ± 1,45;85,42 ± 1,16;99,57 ± 0,11
+Oversampling dan pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;V (Ventrikel);1448;96,37 ± 0,77;96,52 ± 0,36;96,44 ± 0,28;99,74 ± 0,06
+Oversampling dan pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;F (Fusi);162;72,18 ± 2,94;88,89 ± 1,80;79,63 ± 1,61;99,74 ± 0,04
+Oversampling dan pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;Q (Unknown);1608;99,24 ± 0,19;99,20 ± 0,17;99,22 ± 0,17;99,94 ± 0,01

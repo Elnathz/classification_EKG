@@ -1,0 +1,11 @@
+{
+  "audit_tumpang_tindih": {
+    "jumlah_baris_train": 87554,
+    "jumlah_baris_test": 21892,
+    "duplikat_dalam_train": 0,
+    "duplikat_dalam_test": 0,
+    "baris_test_identik_dengan_train": 0,
+    "baris_train_identik_dengan_test": 0
+  },
+  "normalisasi": "none"
+}

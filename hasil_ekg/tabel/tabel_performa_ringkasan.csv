@@ -1,0 +1,10 @@
+﻿Skenario;Model;Jumlah_seed;Parameter;Akurasi_persen;Macro_F1_persen;Weighted_F1_persen;Akurasi_CI95_bawah;Akurasi_CI95_atas;Macro_F1_CI95_bawah;Macro_F1_CI95_atas;Rata_rata_epoch
+Tanpa penanganan;1D-CNN saja;5;174469;98,30 ± 0,07;90,38 ± 0,36;98,21 ± 0,08;98,21;98,39;89,93;90,84;47,6
+Tanpa penanganan;BiLSTM saja;5;150789;98,41 ± 0,08;91,39 ± 0,59;98,37 ± 0,09;98,31;98,51;90,65;92,13;39,8
+Tanpa penanganan;Hibrida 1D-CNN dan BiLSTM;5;422277;98,70 ± 0,12;92,40 ± 0,74;98,67 ± 0,13;98,56;98,85;91,48;93,32;31,0
+Pembobotan kelas;1D-CNN saja;5;174469;92,99 ± 1,26;76,39 ± 1,62;93,93 ± 1,06;91,43;94,55;74,38;78,40;19,6
+Pembobotan kelas;BiLSTM saja;5;150789;93,31 ± 1,78;77,46 ± 4,06;94,25 ± 1,37;91,11;95,52;72,41;82,51;36,0
+Pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;5;422277;95,95 ± 0,98;83,36 ± 2,64;96,37 ± 0,80;94,73;97,17;80,08;86,64;29,0
+Oversampling dan pembobotan kelas;1D-CNN saja;5;174469;96,10 ± 0,58;84,37 ± 1,47;96,45 ± 0,58;95,38;96,81;82,55;86,20;34,0
+Oversampling dan pembobotan kelas;BiLSTM saja;5;150789;98,17 ± 0,07;90,85 ± 0,47;98,18 ± 0,07;98,08;98,25;90,26;91,44;49,4
+Oversampling dan pembobotan kelas;Hibrida 1D-CNN dan BiLSTM;5;422277;98,58 ± 0,12;92,00 ± 0,36;98,60 ± 0,11;98,43;98,73;91,56;92,44;40,4

@@ -1,0 +1,7 @@
+﻿Kode;Kelas;Training_set;Validation_set;Test_set
+N;Normal;61600;10871;18118
+S;Supraventrikular;1889;334;556
+V;Ventrikel;4920;868;1448
+F;Fusi;545;96;162
+Q;Unknown;5466;965;1608
+Total;-;74420;13134;21892

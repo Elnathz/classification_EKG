@@ -1,0 +1,13 @@
+﻿Skenario;Pembanding;Metrik;Jumlah_pasangan;Selisih_rata_persen;CI95_bawah_persen;CI95_atas_persen;p_t_berpasangan;Effect_size_dz
+Tanpa penanganan;Hibrida vs 1D-CNN saja;Macro-F1;5;2,01;1,49;2,54;0,0004;4,75
+Tanpa penanganan;Hibrida vs 1D-CNN saja;Akurasi;5;0,40;0,33;0,48;0,0001;6,77
+Tanpa penanganan;Hibrida vs BiLSTM saja;Macro-F1;5;1,01;0,46;1,56;0,0071;2,27
+Tanpa penanganan;Hibrida vs BiLSTM saja;Akurasi;5;0,30;0,16;0,43;0,0033;2,80
+Pembobotan kelas;Hibrida vs 1D-CNN saja;Macro-F1;5;6,97;4,92;9,01;0,0007;4,23
+Pembobotan kelas;Hibrida vs 1D-CNN saja;Akurasi;5;2,96;1,58;4,34;0,0040;2,66
+Pembobotan kelas;Hibrida vs BiLSTM saja;Macro-F1;5;5,90;0,36;11,44;0,0417;1,32
+Pembobotan kelas;Hibrida vs BiLSTM saja;Akurasi;5;2,63;0,37;4,90;0,0320;1,44
+Oversampling dan pembobotan kelas;Hibrida vs 1D-CNN saja;Macro-F1;5;7,63;5,52;9,73;0,0006;4,49
+Oversampling dan pembobotan kelas;Hibrida vs 1D-CNN saja;Akurasi;5;2,48;1,64;3,32;0,0012;3,66
+Oversampling dan pembobotan kelas;Hibrida vs BiLSTM saja;Macro-F1;5;1,15;0,42;1,88;0,0119;1,96
+Oversampling dan pembobotan kelas;Hibrida vs BiLSTM saja;Akurasi;5;0,41;0,25;0,58;0,0022;3,12

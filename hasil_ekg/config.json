@@ -1,0 +1,49 @@
+{
+  "n_features": 187,
+  "n_classes": 5,
+  "class_codes": [
+    "N",
+    "S",
+    "V",
+    "F",
+    "Q"
+  ],
+  "class_names": {
+    "N": "Normal",
+    "S": "Supraventrikular",
+    "V": "Ventrikel",
+    "F": "Fusi",
+    "Q": "Unknown"
+  },
+  "split_seed": 42,
+  "val_fraction": 0.15,
+  "oversample_ratio": 0.35,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "max_epochs": 50,
+  "patience": 7,
+  "lr_patience": 3,
+  "lr_factor": 0.5,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "models": [
+    "cnn",
+    "bilstm",
+    "hybrid"
+  ],
+  "scenarios": [
+    "imb1",
+    "imb2",
+    "imb3"
+  ],
+  "subset": 0,
+  "sampling_rate_hz": 125,
+  "data_dir": "D:\\Kuliah\\Semester 5\\AI\\data",
+  "created": "2026-10-25T22:22:45",
+  "normalization": "none"
+}
